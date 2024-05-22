@@ -1,0 +1,25 @@
+{
+    "name": "saml-authentication-node-angular",
+    "version": "1.0.0",
+    "description": "Node.js and AngularJS application with SAML-based SSO using Okta",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js"
+    },
+    "author": "Aditya Chaturvedi",
+    "license": "ISC",
+    "dependencies": {
+        "@okta/oidc-middleware": "^5.4.0",
+        "@okta/okta-auth-js": "^7.6.0",
+        "bcrypt": "^5.1.1",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "mongoose": "^5.13.22",
+        "package.json": "^2.0.1",
+        "passport": "^0.4.1",
+        "passport-saml": "^3.2.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
